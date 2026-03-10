@@ -1,0 +1,13 @@
+[workspace]
+authors = ["Jay Roebuck <jroebuck@esri.com>"]
+channels = ["conda-forge"]
+name = "devtech-2026"
+platforms = ["osx-arm64"]
+version = "2.4.2"
+
+[dependencies]
+python = "3.13.*"
+
+[pypi-dependencies]
+arcgis = "==2.4.2.*"
+arcgis-mapping = "==4.33.*"
